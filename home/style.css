@@ -1,0 +1,46 @@
+body, html {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  font-family: 'Rosario', sans-serif;
+  color: #002366;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  min-height: 100vh;
+}
+
+header {
+  display: grid;
+}
+
+.name-top {
+  display: flex;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.share-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  width: 32px;
+}
+
+.hello {
+  display: block;
+  font-size: 8rem;
+  justify-content: left;
+}
+
+footer {
+  text-align: center;
+}
