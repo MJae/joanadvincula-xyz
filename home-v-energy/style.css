@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Oswald);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+ html {
+  font-family: 'Rosario', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+ }
+
+ body {
+  margin: 0;
+ }
+
+ .background-color-layer {
+  background-size: cover;
+  opacity: .18;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;;
+  bottom: 30%;
+  box-shadow: inset 0 -40px 60px 10px #002366;
+ }
+
+ .content-wrapper {
+  position: relative;
+  z-index: 1;
+ }
+
+ .white-text-container {
+  color: #fff;
+ }
+
+.section-container {
+  padding: 60px 0 40px;
+}
+
+.text-center {
+  text-align: center;
+}
